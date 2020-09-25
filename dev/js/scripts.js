@@ -1,1 +1,3 @@
-// import * as Demo from './demo.js';
+import * as Demo from './demo.js';
+
+console.log(Demo);
