@@ -2,8 +2,32 @@
     Demo
 ============= */
 
-.red-box{
+.box{
     height: 100px;
     width: 100px;
+    margin: 10px;
+}
+
+.red-box{
     background-color: $red;
+}
+
+.orange-box{
+    background-color: $orange;
+}
+
+.yellow-box{
+    background-color: $yellow;
+}
+
+.green-box{
+    background-color: $green;
+}
+
+.blue-box{
+    background-color: $blue;
+}
+
+.purple-box{
+    background-color: $purple;
 }

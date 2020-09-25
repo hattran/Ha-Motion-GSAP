@@ -426,8 +426,32 @@ textarea {
 /* =============
     Demo
 ============= */
-.red-box {
+.box {
   height: 100px;
   width: 100px;
-  background-color: #f13232;
+  margin: 10px;
+}
+
+.red-box {
+  background-color: #FF0018;
+}
+
+.orange-box {
+  background-color: #FFA52C;
+}
+
+.yellow-box {
+  background-color: #FFFF41;
+}
+
+.green-box {
+  background-color: #008018;
+}
+
+.blue-box {
+  background-color: #0000F9;
+}
+
+.purple-box {
+  background-color: #86007D;
 }
