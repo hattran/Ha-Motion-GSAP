@@ -1,0 +1,80 @@
+/* =============
+    Section 4
+============= */
+#section-4 {
+    display: grid;
+    grid-template-areas: ". section-4 .";
+    grid-template-columns: 15px auto 15px;
+
+    @include xl {
+        grid-template-areas: ". section-4 .";
+        grid-template-columns: auto 1200px auto;
+    }
+
+    ul {
+        display: grid;
+        grid-area: section-4;
+        grid-gap: 20px;
+        grid-template-areas: "g1"
+            "g2"
+            "g3";
+        grid-template-rows: 3(1fr);
+
+        li {
+            background-position: bottom;
+            background-size: cover;
+            height: 300px;
+        }
+
+        @include md {
+            grid-template-areas: "g1 g1"
+                "g2 g3";
+            grid-template-columns: 50% auto;
+        }
+
+        @include lg {
+            grid-template-areas: "g1 g2"
+                "g1 g3";
+            grid-template-columns: 60% 40%;
+        }
+
+        #g1 {
+            background-image: url("../img/gallery-1.jpg");
+            grid-area: g1;
+
+            @include md {
+                height: 700px;
+            }
+
+            @include lg {
+                height: 820px;
+            }
+        }
+
+        #g2 {
+            background-image: url("../img/gallery-2.jpg");
+            grid-area: g2;
+
+            @include lg {
+                height: 400px;
+            }
+        }
+
+        #g3 {
+            background-image: url("../img/gallery-3.jpg");
+            background-size: 600px;
+            grid-area: g3;
+
+            @include md {
+                background-position: -200px -660px;
+                background-size: 700px;
+            }
+
+            @include lg {
+                background-position: bottom;
+                background-size: 800px;
+                height: 400px;
+            }
+        }
+    }
+}
