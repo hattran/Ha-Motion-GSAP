@@ -7,6 +7,7 @@
     background-size: cover;
     height: 50vh;
     margin-top: 80px;
+    overflow: hidden;
 
     @include md {
         height: 60vh;
@@ -18,5 +19,10 @@
 
     @include xl {
         height: 85vh;
+    }
+
+    div{
+        background-color: $yellow;
+        height: 20%;
     }
 }
