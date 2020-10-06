@@ -459,11 +459,12 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
 }
 header > div {
   display: grid;
   grid-template-areas: "logo burger" "nav nav";
-  grid-template-columns: 80% auto;
+  grid-template-columns: 50% auto;
 }
 @media (min-width: 992px) {
   header > div {
