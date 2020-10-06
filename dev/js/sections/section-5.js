@@ -11,11 +11,10 @@ section5TL.from("#section-5-photo",{duration: 0.8, alpha:0, x:-300, rotation:-18
 
 export function section5Animation(){
     ScrollTrigger.create({
-        // markers: true,
+        markers: true,
         animation: section5TL,
         toggleActions: "play none none none",
         trigger: "#section-5",
-        start:"top, 50%",
-        end: "bottom 50%"
+        start: "top 80%"
     });
 }
