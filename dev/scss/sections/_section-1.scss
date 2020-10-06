@@ -22,7 +22,14 @@
     }
 
     div{
-        background-color: $yellow;
         height: 20%;
+    }
+
+    .yellow-bar{
+        background-color: $yellow;
+    }
+
+    .orange-bar{
+        background-color: $orange;
     }
 }

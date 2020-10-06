@@ -559,8 +559,13 @@ header > div #nav-container {
   }
 }
 #section-1 div {
-  background-color: #FDAF01;
   height: 20%;
+}
+#section-1 .yellow-bar {
+  background-color: #FDAF01;
+}
+#section-1 .orange-bar {
+  background-color: #F1733C;
 }
 
 /* =============
