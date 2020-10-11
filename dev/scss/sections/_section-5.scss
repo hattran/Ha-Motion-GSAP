@@ -50,8 +50,12 @@
                 margin: 30px auto 10px;
                 width: 320px;
 
+                @include md {
+                    margin: 50px auto 10px;
+                }
+
                 @include lg {
-                    margin: 20px auto 40px 40px;
+                    margin: 50px auto 50px 40px;
                 }
             }
 

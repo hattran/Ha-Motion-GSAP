@@ -716,6 +716,11 @@ header > div #nav-container {
   margin: 20px 0 10px;
 }
 @media (min-width: 768px) {
+  #section-3 #section-3-text article {
+    margin: 50px 0 50px;
+  }
+}
+@media (min-width: 768px) {
   #section-3 #section-3-text {
     display: grid;
     grid-template-columns: 10% auto 10%;
@@ -862,9 +867,14 @@ header > div #nav-container {
   margin: 30px auto 10px;
   width: 320px;
 }
+@media (min-width: 768px) {
+  #section-5 #section-5-container #section-5-content #section-5-photo {
+    margin: 50px auto 10px;
+  }
+}
 @media (min-width: 992px) {
   #section-5 #section-5-container #section-5-content #section-5-photo {
-    margin: 20px auto 40px 40px;
+    margin: 50px auto 50px 40px;
   }
 }
 #section-5 #section-5-container #section-5-content #section-5-text {

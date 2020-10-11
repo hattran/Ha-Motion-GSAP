@@ -40,6 +40,10 @@
         article {
             grid-area: section-3-text;
             margin: 20px 0 10px;
+
+            @include md {
+                margin: 50px 0 50px;
+            }
         }
 
         @include md {
