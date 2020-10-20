@@ -426,32 +426,19 @@ textarea {
 /* =============
     Demo
 ============= */
-.box {
-  height: 100px;
-  width: 100px;
-  margin: 10px;
+#svg-hw {
+  display: grid;
+  grid-template-columns: auto 40% auto;
+  grid-template-areas: ". icon .";
 }
-
-.red-box {
-  background-color: #FF0018;
+#svg-hw > div {
+  grid-area: icon;
+  border: 3px solid aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.orange-box {
-  background-color: #FFA52C;
-}
-
-.yellow-box {
-  background-color: #FFFF41;
-}
-
-.green-box {
-  background-color: #008018;
-}
-
-.blue-box {
-  background-color: #0000F9;
-}
-
-.purple-box {
-  background-color: #86007D;
+#svg-hw > div svg {
+  width: 50%;
 }
