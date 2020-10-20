@@ -431,14 +431,13 @@ textarea {
   grid-template-columns: auto 40% auto;
   grid-template-areas: ". icon .";
 }
-#svg-hw > div {
+#svg-hw #loading-icon {
   grid-area: icon;
-  border: 3px solid aqua;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#svg-hw > div svg {
+#svg-hw #loading-icon svg {
   width: 50%;
 }

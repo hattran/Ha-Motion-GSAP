@@ -1,3 +1,6 @@
-import * as Demo from './demo.js';
+import {gsap} from "gsap";
 
-console.log(Demo);
+import {loadingAnimation} from "./animate.js"
+
+const mainTL = gsap.timeline();
+mainTL.add(loadingAnimation());
